@@ -1,11 +1,11 @@
 from cmath import pi
 import time
 from unicodedata import name
-import pyfirmata
+from pyfirmata import SERVO, Arduino, util
 
 pin = 1
 port = ''
-board = pyfirmata.Arduino(port)
+board = Arduino(port)
 
 board.digital[11].mode = SERVO
 
