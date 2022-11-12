@@ -37,7 +37,7 @@ def invalid_input():
     return invalid_getinput
 
 def play_again():
-    play_again_string = apply("Type 'n' if you wish to stop playing (press 'enter' to continue):  ", 'white/bold')
+    play_again_string = apply("Type 'n' if you wish to stop playing (press 'enter' to play again):  ", 'white/bold')
     play_again_input = str(input(play_again_string))
     return play_again_input
 
